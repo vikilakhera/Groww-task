@@ -1,23 +1,31 @@
 export const columns = [
   {
-    dataField: "bank_name",
-    text: "Bank",
+    dataIndex: "bank_name",
+    title: "Bank",
+    key: "bank"
   },
   {
-    dataField: "ifsc",
-    text: "IFSC",
+    dataIndex: "ifsc",
+    title: "IFSC",
+    key: "ifsc"
   },
   {
-    dataField: "branch",
-    text: "Branch",
+    dataIndex: "branch",
+    title: "Branch",
+    key: "branch"
   },
   {
-    dataField: "bank_id",
-    text: "Bank ID",
-    sort: true,
+    dataIndex: "bank_id",
+    title: "Bank ID",
+    key: "bank_id",
   },
   {
-    dataField: "address",
-    text: "Address",
+    dataIndex: "address",
+    title: "Address",
+    key: "address"
   },
+]
+
+export const detailsMap = [
+  "ifsc","bank_id","branch","address","city","district","state",
 ]

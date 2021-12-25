@@ -3,7 +3,7 @@ import { TIME_KEY } from "./constants";
 export function storeToLocalStorage({
   key,
   value,
-  hasExpiryTime
+  hasExpiryTime = false
 }) {
   if(hasExpiryTime) {
     storeTimeToLocalStorage(key)
@@ -18,7 +18,7 @@ export function storeTimeToLocalStorage(key) {
 }
 
 export function getFromLocalStorage(key) {
-  return JSON.parse(localStorage.getItem(key)) || {}
+  return JSON.parse(localStorage.getItem(key))
 }
 
 export function getTimeFromLocalStorage(key) {

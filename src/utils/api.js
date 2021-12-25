@@ -19,7 +19,7 @@ export async function getAllBanks(cityName) {
 
       return data;
     } else {
-      return getFromLocalStorage(cityNameLocalStorageKey)
+      return getFromLocalStorage(cityNameLocalStorageKey) ?? {}
     }
 
   } catch (error) {

@@ -41,7 +41,7 @@ function Dropdown(props) {
           {
             arr.map(item => (
               <div 
-                className="dropdown-item"
+                className="dropdown-item-cus"
                 onClick={() => selectHandler(item)} 
               >
                 {item}
