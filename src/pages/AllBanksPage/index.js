@@ -119,7 +119,7 @@ function AllBanksPage() {
   }
 
   if(loading) {
-    return <div>loading...</div>
+    return <div className="loading">loading...</div>
   }
 
   if(hasError) {

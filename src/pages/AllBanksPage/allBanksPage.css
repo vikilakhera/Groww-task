@@ -62,3 +62,10 @@ td:nth-child(5){
 .ant-pagination-item-ellipsis{
   color: #f8f9fa !important;
 }
+.loading{
+  text-align: center;
+}
+input{
+  outline: none;
+  color: #121212 !important;
+}
