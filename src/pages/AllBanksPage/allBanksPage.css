@@ -3,7 +3,7 @@ body{
   color: #f8f9fa !important;
 }
 .wrapper{
-  padding: 2rem 3rem;
+  padding: 2rem 10%;
   background: #323337;
   color: #f8f9fa;
 }
@@ -70,4 +70,6 @@ td:nth-child(5){
 input{
   outline: none;
   color: #121212 !important;
+  padding: 4px 0 4px 6px;
+  border-radius: 4px;
 }
