@@ -135,6 +135,7 @@ function AllBanksPage() {
             type="text" 
             value={searched}
             onChange={onInputChange}
+            placeholder="Filter Search"
           />
           <Dropdown 
             arr={TABLE_HEADERS} 
@@ -151,19 +152,9 @@ function AllBanksPage() {
         <Table 
           columns={tableColumns}
           dataSource={filteredBanks}
-          pagination={{ pageSize: 10 }}
+          pagination
           onRow={onRowClick}
         />
-        {/* <BootstrapTable
-          bootstrap4
-          keyField="id"
-          data={filteredBanks}
-          columns={tableColumns}
-          pagination={paginationFactory({ sizePerPage: 10 })}
-          rowEvents={{
-            onClick: onRowClick
-          }}
-        /> */}
       </div>
     </div>
   )
