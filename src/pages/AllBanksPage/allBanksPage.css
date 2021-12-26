@@ -11,7 +11,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 1rem 0;
 }
 .all-banks-header-right-child{
   display: flex;
@@ -21,7 +21,9 @@ body{
 }
 .page-heading{
   color: #f8f9fa;
-  margin-left: 1rem;
+  font-size: 2rem;
+  margin: 0;
+  margin-left: 10px;
 }
 table {
   font-family: Arial, Helvetica, sans-serif;
