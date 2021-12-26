@@ -1,8 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom'
 import AllBanksPage from './pages/AllBanksPage';
-import "bootstrap/dist/css/bootstrap.css";
-import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import BankDetailPage from './pages/BankDetailsPage';
 import Header from './components/header/header';
 import Favorites from './pages/FavouritesPage';
